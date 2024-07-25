@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './styles.css';
+import App1 from './App1';
+import App2 from './App2';
+import Student from './Student';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    
+    {/* <App/> */}
+
+    <Student />
   </React.StrictMode>
 );
 
